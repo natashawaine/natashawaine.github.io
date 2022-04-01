@@ -1,0 +1,120 @@
+body {
+    background-color:black;
+}
+
+div.poster {
+    background-color:black;
+    width:75%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+div.container {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+div.col {
+  outline:none;
+  overflow: visible;
+  
+}
+
+
+/* 5 col grid */
+
+div.w1-5 {
+  width: 20%;
+}
+
+div.w2-5 {
+  width: 40%;
+}
+div.w3-5 {
+  width: 60%;
+}
+
+div.w4-5 {
+  width: 80%;
+}
+
+div.w5-5 {
+  width: 100%;
+}
+
+
+div.text {
+    font-size:150px;
+    font-family:Cherry;
+    color:blue;
+    transition:0.5s;
+}
+
+
+@font-face {
+  font-family: "Cherry";
+  src: url(cherry.woff) format("woff");
+}
+/* rule 1 */
+
+div.text.one {
+    font-size:90px
+}
+
+div.text.two {
+    font-size:120px;
+}
+
+div.text.three {
+    font-size:30px;
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    color: red;
+}
+
+div.text.b {
+    color: blue;
+}
+
+div.text.c {
+    color: black;
+}
+
+/* rule 3 */
+
+div.text.x {
+  text-shadow: 4px 4px 8px red;
+}
+
+div.text.y {
+  text-shadow: none;
+}
+
+div.text.z {
+  text-shadow: 2px 2px 4px white;
+}
+
+div.text.transform {
+  transform: rotate(90deg);
+}
+
+div.text.transform.left {
+  transform: rotate(-90deg);
+}
+
+div.text.width {
+  width: 1000px;
+}
+
+div.text.small {
+    font-size:30px;
+    font-family:Verdana;
+    text-align:center;
+    color:white;
+}
+

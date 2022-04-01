@@ -1,0 +1,71 @@
+body {
+    background-color:rgb(255, 255, 255);
+    
+
+}
+
+div.poster {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(90deg, blue 0%, rgb(121, 37, 201) 35%, purple 100%);
+  
+}
+
+
+div.text {
+    font-size:210px;
+    text-align:center;
+    color:white;
+    transition:0.5s;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-family:roboto;
+}
+
+div.text.two {
+    font-family:lovelo;
+}
+
+div.text.three {
+    font-family:book antiqua;
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    text-transform:capitalize;
+}
+
+div.text.b {
+    text-transform:uppercase;
+}
+
+div.text.c {
+    text-transform:capitalize;
+}
+
+/* rule 3 */
+
+div.text.x {
+    font-style:italic;
+}
+
+div.text.y {
+    font-style:normal;
+}
+
+div.text.z {
+    font-style:bold;
+}
+
+div.small {
+    font-size:25px;
+    font-family:book antiqua;
+    text-align:center;
+    color:white;
+}

@@ -1,0 +1,73 @@
+body {
+    background-color:coral;
+}
+
+div.poster {
+    background-color:rgb(37, 120, 187);
+    width:75%;
+}
+
+div.text {
+    font-size: 150px;
+    color: coral;
+    transition:0.5s;  
+    }
+
+    @font-face {
+        font-family: "Retro New Version";
+        src: url(font/retro-font.woff) format("woff");
+    }
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 50px;
+    font-family: Retro New Version;
+}
+
+div.text.two {
+   font-size: 100px
+
+}
+
+div.text.three {
+   font-size: 105px;
+   font-family: Retro New Version;
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    text-align: center;
+    
+}
+
+div.text.b {
+    text-align: left;
+}
+
+div.text.c {
+    text-align: right;
+}
+
+/* rule 3 */
+
+div.text.x {
+    text-transform:uppercase;
+}
+
+div.text.y {
+    text-transform:lowercase;
+}
+
+div.text.z {
+    text-transform:none;
+}
+
+div.small {
+    font-size:25px;
+    font-family:book antiqua;
+    text-align:center;
+    color:coral;
+}

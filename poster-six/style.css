@@ -1,0 +1,125 @@
+body {
+    background-image:linear-gradient(180deg, white, red);
+}
+
+div.poster {
+    width:100%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div.container {
+  display: flex;
+  
+}
+
+div.col {
+  outline:none;
+  overflow: hidden;
+  
+}
+
+
+/* 6 col grid */
+
+div.w1-6 {
+  width: 16.66%;
+}
+
+div.w2-6 {
+  width: 33.33%;
+}
+div.w3-6 {
+  width: 50%;
+}
+
+div.w4-6 {
+  width: 66.66%;
+
+}div.w5-6 {
+  width: 83.33%;
+}
+div.w1-6 {
+  width: 100%;
+}
+
+
+
+/* end of grids */
+
+div.text {
+    font-size:50px;
+    font-family:Tweaky;
+    color:black;
+    text-align: left; 
+    transition:0.5s;
+}
+
+@font-face {
+  font-family: "Tweaky";
+  src: url(tweaky.woff) format("woff");
+
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:40px;
+    padding-left: 30px;
+}
+
+div.text.two {
+    font-size:40px;
+    padding: 30px;
+}
+
+div.text.three {
+    font-size:40px;
+    padding: 30px;
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    font-family: Tweaky;
+
+}
+
+div.text.b {
+    font-family: Tweaky;
+}
+
+div.text.c {
+    font-family: helvetica;
+}
+
+/* rule 3 */
+
+div.text.x {
+  text-transform: none;
+       
+}
+
+div.text.y {
+  text-transform: uppercase;
+      
+}   
+div.text.z {
+  text-transform:lowercase;
+   
+}
+
+div.text.transform {
+  transform: rotate(90deg);
+
+}
+div.small {
+    font-size:25px;
+    font-family:book antiqua;
+    text-align:center;
+    color:black;
+}
+

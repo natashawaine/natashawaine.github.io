@@ -1,0 +1,65 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+div.poster {
+    background-color:rgb(0, 0, 0);
+    width:75%;
+}
+
+div.text {
+    font-size:90px;
+    font-family: Franklin Gothic;
+    color:rgb(255, 255, 255);
+    transition:0.5s;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-weight: 30px;
+}
+
+div.text.two {
+    font-weight: 5px;
+}
+
+div.text.three {
+    font-weight: 50px;
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    text-shadow: 3px 3px 3px yellow, 1px 1px 1px green;
+}
+
+div.text.b {
+    text-shadow: 6px 6px 6px blue, 2px 2px 2px purple;
+}
+
+div.text.c {
+    text-shadow: 12px 12px 12px red, 3px 3px 3px pink;
+}
+
+/* rule 3 */
+
+div.text.x {
+    letter-spacing: 0px;
+}
+
+div.text.y {
+    letter-spacing: 60px;
+}
+
+div.text.z {
+    letter-spacing: 20px;
+}
+
+div.small {
+    font-size:30px;
+    font-family:helvetica;
+    text-align:center;
+    color:rgb(255, 255, 255);
+}

@@ -1,0 +1,131 @@
+body {
+    background-color: white;
+}
+
+div.poster {
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.container {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+div.col {
+  outline: 3px solid black;
+  overflow: hidden;
+  
+}
+
+
+/* 2 col grid */
+
+div.w1-2 {
+  width: 50%;
+}
+
+div.w2-2 {
+  width: 100%;
+}
+
+/* 3 col grid */
+
+div.w1-3 {
+  width: 33.33%;
+}
+div.w2-3 {
+  width: 66.66%;
+}
+
+div.w3-3 {
+  width: 100%;
+}
+
+
+/* end of grids */
+
+
+  
+div.text {
+    font-size:150px;
+    font-family:Cake;
+    text-align: left;
+    transition:0.5s;
+}
+
+@font-face {
+  font-family: "Cake";
+  src: url(cakethin.woff) format("woff");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cake";
+  src: url(cakebold.woff) format("woff");
+  font-style: bold;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:50px;
+}
+
+div.text.two {
+    font-size:100px;
+}
+
+div.text.three {
+    font-size:150px;
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    color: black;
+}
+
+div.text.b {
+    color: white;
+}
+
+div.text.c {
+    color: red;
+}
+
+/* rule 3 */
+
+div.text.x {
+    font-style: bold;
+}
+
+div.text.y {
+    font-style: italic;
+}
+
+div.text.z {
+    font-style: bold;
+}
+
+div.text.center {
+  text-align: center;
+
+}
+
+div.text.right {
+  text-align: right;
+
+}
+
+div.small {
+    font-size:25px;
+    font-family:Roboto;
+    font-style: italic;
+    text-align:center;
+    color:black;
+    padding-top: 50px;
+}
+
