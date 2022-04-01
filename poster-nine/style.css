@@ -1,0 +1,110 @@
+body {
+    background-color:black;
+}
+
+div.poster {
+    background-color:black;
+    width:100%;
+    /* background-image:url('vector.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+    color:transparent; */
+}
+
+div.text {
+    font-size:120px;
+    font-family:Arial;
+    font-style:italic;
+    text-align: center;
+    color:yellow;
+    transition:0.5s;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col {
+    
+
+}
+
+
+div.w1-3 {
+    width: 33.33%;
+}
+
+div.w2-3 {
+    width: 66.66%
+}
+
+div.w3-3 {
+    width: 100%;
+}
+
+/* rule 1 */
+
+div.text.one {
+    opacity: 100%;
+    color: yellow;
+}
+
+div.text.two {
+    opacity: 100%;
+    color: black;
+}
+
+div.text.three {
+    opacity: 50%;
+    color: yellow;
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    background-image:url('image.jpg');
+    background-repeat:repeat;
+    background-size:contain;
+    background-position: center center;
+    box-shadow: 12px 24px 80px 0px yellow inset;
+}
+
+div.text.b {
+    background-image:url('image.jpg');
+    background-size: contain;
+    box-shadow: inset;
+}
+
+div.text.c {
+    color: yellow;
+    background-repeat:repeat;
+    background-size:contain;
+    background-position: none;
+    color: transparent;
+}
+
+/* rule 3 */
+
+div.text.x {
+
+   
+}
+
+div.text.y {
+    
+}
+
+div.text.z {
+    
+}
+
+div.skew{
+    transform: skew(15deg);
+}
+
+div.bskew{
+    transform: skew(-15deg);
+}
