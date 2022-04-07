@@ -1,0 +1,142 @@
+body {
+    background-color:white;
+}
+
+div.poster {
+    background-color: white;
+    /* background-image: url('grid.jpg'); */
+    background-size: contain;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image:url('vector.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+    color:transparent; */
+}
+
+@font-face {
+    font-family: "Digital font";
+    src: url("digitalfont.woff") format("woff");
+}
+
+
+div.text {
+    font-size:100px;
+    font-family:helvetica;
+    text-align: left;
+    color: black;
+    transition:0.5s;
+}
+
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.col {
+    
+}
+
+
+div.w1-4 {
+    width: 25%;
+}
+
+div.w2-4 {
+    width: 50%
+}
+
+div.w3-4 {
+    width: 75%;
+}
+
+div.w4-4 {
+    width: 100%;
+}
+
+div.w1-50 {
+    width: 2%;
+}
+div.w10-50 {
+    width: 20%;
+}
+div.w40-50 {
+    width: 80%;
+}
+div.w45-50{
+    width: 90%;
+}
+
+div.base {
+    font-size:20px;
+    font-family:helvetica;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    background-color: blue;
+
+}
+
+
+/* rule 1 */
+
+div.text.one {
+    box-shadow: 12px 24px 80px 0px blue inset;
+}
+
+div.text.two {
+    box-shadow: none;
+    transform: skew(-30deg);
+}
+
+div.text.three {
+    box-shadow: 12px 24px 80px 0px black;
+    transform: skew(30deg);
+   
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    font-family: Digital font;
+    font-size: 80px;
+   
+}
+
+div.text.b {
+    font-family: helvetica;
+    font-size: 40px;
+    
+}       
+
+div.text.c {
+    font-family: helvetica;
+    font-size: 20px;
+
+    
+}
+
+/* rule 3 */
+
+div.text.x {
+   color:rgb(246, 255, 0);
+   
+}
+
+div.text.y {
+    color: rgb(246, 255, 0);
+   
+}
+
+div.text.z {
+    color: black;
+    
+}
+
+

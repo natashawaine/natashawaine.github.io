@@ -1,0 +1,128 @@
+body {
+    background-color:black;
+}
+
+div.poster {
+    background-color:black;
+    /* background-image: url('grid.jpg'); */
+    background-size: contain;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image:url('vector.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+    color:transparent; */
+}
+
+
+
+div.text {
+    font-size:30px;
+    font-family:keyboard;
+    text-align: left;
+    color: white;
+    transition:0.5s;
+}
+
+@font-face {
+    font-family: keyboard;
+    src: url(keyboard.woff);
+  }
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.col {
+    /* outline: solid white; */
+
+}
+
+
+div.w1-3 {
+    width: 33.33%;
+}
+
+div.w2-3 {
+    width: 66.66%
+}
+
+div.w3-3 {
+    width: 100%;
+}
+
+div.same {
+    color: black;
+    font-family: Franklin Gothic Medium;
+    font-size: 120px;
+    text-align: center;
+    text-shadow: 5px 5px red;
+}
+
+div.bottom {
+    color: red;
+    font-family: Times New Roman
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: 3px solid red;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-family: keyboard;
+}
+
+div.text.two {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+
+
+}
+
+div.text.three {
+    font-family: keyboard;
+
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    transform: rotate(180deg);
+    
+}
+
+div.text.b {
+    transform: none;
+}
+
+div.text.c {
+    transform: rotateY(180deg);
+    
+}
+
+/* rule 3 */
+
+div.text.x {
+    color:black;
+   
+}
+
+div.text.y {
+    color: black;
+}
+
+div.text.z { 
+    color: none;
+}
+
+

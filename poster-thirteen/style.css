@@ -1,0 +1,107 @@
+body {
+    background-color:black;
+}
+
+div.poster {
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to right, red , yellow);
+   
+  }
+
+
+
+div.text {
+    font-size:100px;
+    font-family:helvetica;
+    text-align: left;
+    color: black;
+    transition:0.5s;
+}
+
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.col {
+    outline: dotted 2px black;
+    min-height: 1px;
+
+}
+
+
+div.w1-4 {
+    width: 25%;
+}
+
+div.w2-4 {
+    width: 50%
+}
+
+div.w3-4 {
+    width: 75%;
+}
+
+div.w4-4 {
+    width: 100%;
+}
+
+
+
+
+/* rule 1 */
+
+div.text.one {
+   
+}
+
+div.text.two {
+    
+}
+
+div.text.three {
+    
+}
+
+/* rule 2 */
+
+
+div.text.a {
+    background-color: black;
+   
+}
+
+div.text.b {
+    background-color: white;
+    
+}       
+
+div.text.c {
+    background-color: none;
+    
+    
+}
+
+/* rule 3 */
+
+div.text.x {
+    background-image: url('cursorfour.png');
+    background-repeat: repeat-x;
+    color: transparent;
+
+   
+}
+
+div.text.y {
+    background-image: url('cursorfive.png');
+    color: transparent;
+}
+
+div.text.z {
+    
+}
+
+
