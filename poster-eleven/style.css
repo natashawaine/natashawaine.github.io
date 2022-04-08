@@ -58,7 +58,7 @@ div.w3-3 {
 div.same {
     color: black;
     font-family: Franklin Gothic Medium;
-    font-size: 500px;
+    font-size: 100px;
     text-align: center;
     text-shadow: 5px 5px red;
 }
@@ -66,7 +66,8 @@ div.same {
 div.bottom {
     color: red;
     font-family: Times New Roman;
-    font-size: 50px;
+    font-size: 25px;
+    font-style: italics;
     text-align: center;
     text-transform: uppercase;
     outline: 5px solid red;
