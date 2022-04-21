@@ -1,10 +1,12 @@
 body {
-    background-color:rgb(128, 128, 128);
+    background-color:black;
 }
 
 div.poster {
-    background-color:rgb(128, 128, 128);
-    width:100%;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }
 
 div.container {
@@ -13,7 +15,7 @@ div.container {
 }
 
 div.col {
-  outline:3px dotted red;
+  outline:none;
   overflow: hidden;
   
 }
@@ -63,59 +65,76 @@ div.w2-2 {
 
 
 div.text {
-    font-size:150px;
-    font-family:roboto;
+    font-size:10px;
+    font-family:Source Code;
+    color: black;
     transition:0.5s;
+    text-align: left;
+}
+
+@font-face {
+  font-family: "Source Code";
+  src: url(scregular.woff) format("woff");
+  font-style: regular;
+}
+@font-face {
+  font-family: "Source Code";
+  src: url(scbold.woff) format("woff");
+  font-style: bold;
 }
 
 
 /* rule 1 */
 
 div.text.one {
-    font-size:35px;
+  font-family: Source Code;
+  font-style: regular;
 }
 
-div.text.two {
-    font-size:70px;
+div.text.two{
+  font-family: Source Code;
+  font-style: bold;
 }
+
 
 div.text.three {
-    font-size:140px;
+  font-family: arial;
 }
-
 /* rule 2 */
 
 
 div.text.a {
-    text-align:left;
+  color: greenyellow;
 }
 
 div.text.b {
-    text-align:center;
+  color: black;
 }
 
-div.text.c {
-    text-align:right;
-}
 
+div.text.c{
+  color: greenyellow;
+}
 /* rule 3 */
 
 div.text.x {
-    text-transform:uppercase;
+  text-shadow: none;
 }
 
 div.text.y {
-    text-transform:lowercase;
+  text-shadow: 2px 3px 4px;
 }
 
 div.text.z {
-    text-transform:none;
+  text-shadow: none
 }
 
-div.small {
-    font-size:25px;
-    font-family:book antiqua;
-    text-align:center;
-    color:black;
+div.base {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  
+  text-transform: uppercase;
 }
 

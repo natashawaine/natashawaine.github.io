@@ -1,9 +1,9 @@
 body {
-    background-color:white;
+    background-color:blue;
 }
 
 div.poster {
-    background-color: white;
+    background-color: blue;
     /* background-image: url('grid.jpg'); */
     background-size: contain;
     width:75%;
@@ -78,7 +78,7 @@ div.base {
     text-transform: uppercase;
     font-weight: bold;
     color: black;
-    background-color: blue;
+    background-color: yellow;
 
 }
 
