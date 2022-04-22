@@ -65,7 +65,7 @@ div.w2-2 {
 
 
 div.text {
-    font-size:10px;
+    font-size:20px;
     font-family:Source Code;
     color: black;
     transition:0.5s;
@@ -127,6 +127,10 @@ div.text.y {
 
 div.text.z {
   text-shadow: none
+}
+
+div.fade {
+  opacity: 30%;
 }
 
 div.base {
