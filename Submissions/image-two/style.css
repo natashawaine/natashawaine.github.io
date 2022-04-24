@@ -29,6 +29,7 @@ div.text {
 div.container {
     display: flex;
     flex-wrap: wrap;
+    
 
 }
 
@@ -74,9 +75,10 @@ div.text.a {
 
 div.text.b {
     background-image:url('mb-2.png'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     color: transparent;
+    
     
 }
 
@@ -92,8 +94,8 @@ div.text.c {
 
 div.text.x {
     background-image:url('mb-4.png');
-    background-repeat:no-repeat;
-    background-size: cover;
+    background-repeat:repeat;
+    background-size: contain;
     color: transparent;
     
    
@@ -106,7 +108,7 @@ div.text.y {
 }
 
 div.text.z {
-    background-image:url('mb-5.jpg');
+    background-image:url('mb-5.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: transparent;

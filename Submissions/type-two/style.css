@@ -1,35 +1,23 @@
 body {
-    background-color:black;
+    background-color:gold;
 }
 
 div.poster {
-    background-color:black;
-    /* background-image: url('grid.jpg'); */
+    background-color:gold;
     background-size: contain;
     width:75%;
     margin-left: auto;
     margin-right: auto;
-    /* background-image:url('vector.png');
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center center;
-    color:transparent; */
+
 }
 
 
 
 div.text {
-    font-size:50px;
-    font-family:keyboard;
-    text-align: left;
-    color: white;
-    transition:0.5s;
+    font-family: Verdana;
+    font-size:300px;
+    transition: 2s;
 }
-
-@font-face {
-    font-family: keyboard;
-    src: url(keyboard.woff);
-  }
 
 div.container {
     display: flex;
@@ -37,52 +25,50 @@ div.container {
     
 }
 
-div.col {
-    /* outline: solid white; */
 
+
+div.w1-4 {
+    width: 25%;
 }
 
-
-div.w1-3 {
-    width: 33.33%;
+div.w2-4 {
+    width: 50%
 }
 
-div.w2-3 {
-    width: 66.66%
+div.w3-4 {
+    width: 75%;
 }
 
-div.w3-3 {
+div.w4-4 {
     width: 100%;
 }
 
-div.same {
-    color: black;
-    font-family: Franklin Gothic Medium;
-    font-size: 150px;
-    text-align: center;
-    text-shadow: 5px 5px red;
-}
 
-div.bottom {
+div.top {
     color: red;
     font-family: Times New Roman;
-    font-size: 25px;
-    font-style: italics;
+    font-size: 100px;
     text-align: center;
     text-transform: uppercase;
     outline: 5px solid red;
+    transform: rotate(90deg);
 }
 
 /* rule 1 */
 
 div.text.one {
-    font-family: keyboard;
+    color: black;
+    font-family: Franklin Gothic Medium;
+    font-style: oblique;
+    font-size: 280px;
+    text-align: center;
+    text-shadow: 5px 5px red;
 }
 
 div.text.two {
     font-family: helvetica;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 250px;
     text-align: left;
     text-transform: uppercase;
 
@@ -90,7 +76,9 @@ div.text.two {
 }
 
 div.text.three {
-    font-family: keyboard;
+    font-family:keyboard;
+    font-size: 250px;
+    
 
 }
 
@@ -98,7 +86,7 @@ div.text.three {
 
 
 div.text.a {
-    transform: rotate(180deg);
+    transform: skew(20deg);
     
 }
 
@@ -119,11 +107,11 @@ div.text.x {
 }
 
 div.text.y {
-    color: black;
+    color: red;
 }
 
 div.text.z { 
-    color: none;
+    color: gold;
 }
 
 
