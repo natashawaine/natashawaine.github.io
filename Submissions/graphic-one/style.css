@@ -17,7 +17,7 @@ div.poster {
 
 
 div.text {
-    font-size:40px;
+    font-size:20px;
     font-family:helvetica;
     text-align: left;
     text-transform: uppercase;
@@ -108,7 +108,7 @@ div.w1-15 {
 div.long {
     height: 800px;
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
 }
 
 div.tall {
@@ -120,7 +120,7 @@ div.middle {
 }
 
 div.base {
-    font-size:40px;
+    font-size:20px;
     font-family:helvetica;
     text-align: center;
     text-transform: uppercase;
@@ -181,7 +181,7 @@ div.text.one {
 }
 
 div.text.two {
-    
+    border-style: none;
 }
 
 div.text.three {
@@ -204,7 +204,7 @@ div.text.b {
 }       
 
 div.text.c {
-    
+    border-style: none;
 
     
 }
@@ -222,7 +222,7 @@ div.text.y {
 }
 
 div.text.z {
-    
+    border-style: none;
     
 }
 
