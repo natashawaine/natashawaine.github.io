@@ -52,6 +52,8 @@ div.top {
     text-transform: uppercase;
     outline: 5px solid red;
     transform: rotate(90deg);
+    transform-origin: (0,0);
+  
 }
 
 /* rule 1 */

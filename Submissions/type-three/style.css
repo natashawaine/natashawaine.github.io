@@ -1,35 +1,29 @@
 body {
-    background-color:black;
+    background: rgb(255,22,22);
+    
 }
 
 div.poster {
-    background-color:black;
-    /* background-image: url('grid.jpg'); */
+    background: rgb(255,22,22);
+    background: linear-gradient(0deg, rgba(255,22,22,1) 0%, rgba(0,0,0,1) 100%);
     background-size: contain;
-    width:75%;
+    width:55%;
     margin-left: auto;
     margin-right: auto;
-    /* background-image:url('vector.png');
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center center;
-    color:transparent; */
+   
 }
 
 
 
 div.text {
-    font-size:50px;
-    font-family:keyboard;
-    text-align: left;
-    color: white;
+    color: black;
+    font-family: Franklin Gothic Medium;
+    font-size: 150px;
+    text-align: center;
+    text-shadow: 5px 5px red;
     transition:0.5s;
 }
 
-@font-face {
-    font-family: keyboard;
-    src: url(keyboard.woff);
-  }
 
 div.container {
     display: flex;
@@ -37,12 +31,27 @@ div.container {
     
 }
 
-div.col {
-    /* outline: solid white; */
-
+@font-face {
+    font-family: "Keyboard";
+    src: url("keyboard.woff") format("woff");
+}
+div.bottom {
+    color: black;
+    font-family: Keyboard;
+    font-size: 100px;
+    font-style: italics;
+    text-align: center;
+    text-transform: uppercase;
+    outline: 5px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
 }
 
 
+
+/* collumn widths */
+/* col 1-3 */
 div.w1-3 {
     width: 33.33%;
 }
@@ -55,42 +64,33 @@ div.w3-3 {
     width: 100%;
 }
 
-div.same {
-    color: black;
-    font-family: Franklin Gothic Medium;
-    font-size: 150px;
-    text-align: center;
-    text-shadow: 5px 5px red;
+/* col 1-2 */
+div.w1-2 {
+    width: 50%;
 }
 
-div.bottom {
-    color: red;
-    font-family: Times New Roman;
-    font-size: 25px;
-    font-style: italics;
-    text-align: center;
-    text-transform: uppercase;
-    outline: 5px solid red;
+div.w2-2 {
+    width: 100%;
 }
+
+
+
+
 
 /* rule 1 */
 
 div.text.one {
-    font-family: keyboard;
+    font-style: italic;
 }
 
 div.text.two {
-    font-family: helvetica;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: left;
-    text-transform: uppercase;
+    font-style: normal;
 
 
 }
 
 div.text.three {
-    font-family: keyboard;
+   font-style: bold;
 
 }
 
@@ -114,16 +114,16 @@ div.text.c {
 /* rule 3 */
 
 div.text.x {
-    color:black;
+    font-size: 200px;
    
 }
 
 div.text.y {
-    color: black;
+    font-size: 500px;
 }
 
 div.text.z { 
-    color: none;
+    font-size: 100px;
 }
 
 

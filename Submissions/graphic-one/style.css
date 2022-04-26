@@ -1,33 +1,30 @@
 body {
-    background-color:blue;
+    background-color:black;
+    background-image: url("grid.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.poster {
-    background-color: blue;
-    /* background-image: url('grid.jpg'); */
-    background-size: contain;
+    background-color: white;
+    border: 5px solid inset;
     width:75%;
     margin-left: auto;
     margin-right: auto;
-    /* background-image:url('vector.png');
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center center;
-    color:transparent; */
-}
-
-@font-face {
-    font-family: "Digital font";
-    src: url("digitalfont.woff") format("woff");
+    box-shadow: inset black;
+    
 }
 
 
 div.text {
-    font-size:100px;
+    font-size:20px;
     font-family:helvetica;
     text-align: left;
+    text-transform: uppercase;
+    font-weight: light;
     color: black;
     transition:0.5s;
+    
 }
 
 
@@ -37,66 +34,158 @@ div.container {
     
 }
 
-div.col {
-    
+/* div.col {} */
+
+/* collumn 2 */
+
+div.w1-2 {
+    width: 50%;
 }
 
-
-div.w1-4 {
-    width: 25%;
-}
-
-div.w2-4 {
-    width: 50%
-}
-
-div.w3-4 {
-    width: 75%;
-}
-
-div.w4-4 {
+div.w2-2 {
     width: 100%;
 }
 
-div.w1-50 {
-    width: 2%;
-}
-div.w10-50 {
+
+/* collumn 5 */
+
+div.w1-5 {
     width: 20%;
 }
-div.w40-50 {
+
+div.w2-5 {
+    width: 40%;
+}
+
+div.w3-5 {
+    width: 60%;
+}
+
+div.w4-5 {
     width: 80%;
 }
-div.w45-50{
-    width: 90%;
+div.w5-5 {
+    width: 100%;
+}
+
+
+/* collumn 7 */
+
+div.w1-7 {
+    width: 14.28%;
+}
+
+div.w2-7 {
+    width: 28.57%
+}
+
+div.w3-7 {
+    width: 42.85%;
+}
+
+div.w4-7 {
+    width: 57.14%;
+}
+
+div.w5-7 {
+    width: 71.42%;
+}
+
+div.w6-7 {
+    width: 85.71%;
+}
+
+div.w7-7 {
+    width: 100%;
+}
+
+/* col 1-15 */
+div.w1-15 {
+    width: 6.66%
+}
+
+/* specific contraints */
+div.long {
+    height: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+
+div.tall {
+    height: 100px;
+}
+
+div.middle {
+    height: 50px;
 }
 
 div.base {
     font-size:20px;
     font-family:helvetica;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
-    color: black;
-    background-color: yellow;
+    font-weight: light;
+    color: white;
+    background-color: black;
+
+}
+/* colours */
+
+div.black {
+    background-color: black;
+    border-style: solid 2px inset;
+}
+
+div.white {
+    background-color: white;
+}
+
+div.blue {
+    background-color: blue;
+}
+
+div.magenta {
+    background-color: magenta;
+}
+
+div.cyan {
+    background-color: cyan;
+}
+
+div.navy {
+    background-color: navy;
+}
+
+div.dark-grey {
+    background-color: rgb(64, 64, 64);
+}
+
+div.mid-grey {
+    background-color: grey;
+}
+
+div.light-grey {
+    background-color: rgb(201, 201, 201);
 
 }
 
+div.gradient {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
 
 /* rule 1 */
 
 div.text.one {
-    box-shadow: 12px 24px 80px 0px blue inset;
+    background-color: lime;
 }
 
 div.text.two {
-    box-shadow: none;
-    transform: skew(-30deg);
+    
 }
 
 div.text.three {
-    box-shadow: 12px 24px 80px 0px black;
-    transform: skew(30deg);
+    background-color: red;
    
 }
 
@@ -104,20 +193,18 @@ div.text.three {
 
 
 div.text.a {
-    font-family: Digital font;
-    font-size: 80px;
+    background-color:blue;
+    
    
 }
 
 div.text.b {
-    font-family: helvetica;
-    font-size: 40px;
+    background-color: yellow;
     
 }       
 
 div.text.c {
-    font-family: helvetica;
-    font-size: 20px;
+    
 
     
 }
@@ -125,17 +212,17 @@ div.text.c {
 /* rule 3 */
 
 div.text.x {
-   color:rgb(246, 255, 0);
+    background-color: cyan;
    
 }
 
 div.text.y {
-    color: rgb(246, 255, 0);
+    background-color: magenta;
    
 }
 
 div.text.z {
-    color: black;
+    
     
 }
 
