@@ -17,7 +17,7 @@ div.poster {
 
 
 div.text {
-    font-size:20px;
+    font-size:40px;
     font-family:helvetica;
     text-align: left;
     text-transform: uppercase;
@@ -106,21 +106,21 @@ div.w1-15 {
 
 /* specific contraints */
 div.long {
-    height: 600px;
+    height: 800px;
     text-align: center;
-    font-size: 40px;
+    font-size: 80px;
 }
 
 div.tall {
-    height: 100px;
+    height: 200px;
 }
 
 div.middle {
-    height: 50px;
+    height: 100px;
 }
 
 div.base {
-    font-size:20px;
+    font-size:40px;
     font-family:helvetica;
     text-align: center;
     text-transform: uppercase;
