@@ -1,0 +1,190 @@
+body {
+    background-color: white;
+    font-family: Acumin Pro;
+    font-size: 25px;
+    
+}
+
+@font-face {
+  font-family: Acumin Pro;
+  src: url(regular.woff);
+}
+
+@font-face {
+    font-family: Acumin Pro;
+    font-style: italic;
+    src: url(italic.woff);
+}
+
+@font-face {
+    font-family: Acumin Pro;
+    font-style: bold;
+    src: url(bold.woff);
+}
+
+@font-face {
+    font-family: Acumin Pro;
+    font-style: bold italic;
+    src: url(bolditalic.woff);
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(93, 93, 255);
+}
+
+img {
+    width: 100%
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    /* box-shadow: 10px 0px 10px grey; */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+div.header a {
+    color: green
+}
+
+div.header a:hover {
+    color: grey;
+}
+
+
+div.logo {
+    padding: 10px;
+    width: 50%;
+
+}
+
+
+div.nav {
+    padding: 10px;
+    width: 50%;
+}
+
+/* div.nav a {
+special color in nav links
+} */
+
+div.masthead {
+    font-family: Acumin Pro;
+    font-style: bold;
+    font-size: 40vw;
+    line-height: 35vw;
+    padding-top: 100px;
+}
+
+
+div.about {
+    padding: 10px;
+    font-family: Acumin Pro;
+    font-style: italic;
+    font-size: 75px;
+}
+
+
+div.footnotes {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+
+}
+
+div.note {
+    width: 33.333%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* div.note.small {
+    width: 10%;
+} */
+
+div.title {
+    font-size: 150px;
+    color: grey;
+    font-weight: bold;
+    letter-spacing: -5px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div.keywords {
+    font-family: Acumin Pro;
+    font-style: bold italic;
+    font-size: 75px;
+    text-align: center;
+    
+
+}
+
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+div.item {
+    width: 33.333%;
+    padding: 30px;
+    padding-top: 30px;
+    text-transform:uppercase;
+}
+
+
+a.button{
+    background-color: aqua;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+}
+
+/* div.item.pushright {
+    margin-right: 33.333%;
+} */
+
+/* div.item.larger {
+    width: 50%;
+} */
+
+div.number {
+    font-size: 90px;
+}
+
+div.featureimage {
+    width: 33.333%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+div.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.foot {
+    border-top: 1px solid black;
+    width: 33.333%;
+    padding: 30px;
+    text-decoration: underline;
+}
+

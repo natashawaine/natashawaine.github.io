@@ -1,0 +1,27 @@
+moreinfopage
+
+header x
+    logo
+        a
+    nav
+        a,a,a,a
+title x
+featuredimage
+    caption
+about x
+footnotes x
+    note title
+    note desc
+    note outgoing link
+        a
+containter x
+    item
+        image
+        paragraph
+    item
+        image
+        paragraph
+    item
+        image
+        paragraph
+footer
