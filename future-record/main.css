@@ -99,6 +99,7 @@ div.dot1 {
 div.dot2 {
   bottom: 100px;
   left: 50px;
+  background-color: rgba(71,253,61,1);
 }
 
 div.dot3 {
@@ -162,7 +163,7 @@ div.about {
 }
 
 
-/* div.footnotes {
+div.footnotes {
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid black;
@@ -174,7 +175,12 @@ div.note {
     padding: 20px;
     font-size: 16px;
     font-weight: bold;
-} */
+} 
+
+div.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 div.camrecord {
@@ -182,6 +188,7 @@ div.camrecord {
     flex-wrap: wrap;
     background-color: black;
     text-transform:uppercase;
+    align-items: center;
 
 }
 
@@ -208,11 +215,22 @@ div.item {
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,5,247,1) 100%);
 }
 
+div.itemsmall {
+    width: 33.333%;
+    padding: 30px;
+    padding-top: 30px;
+    text-transform:uppercase;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,5,247,1) 100%);
+}
+
+div.space {
+    width: 16.666%;
+}
 
 
 
-
-/* a.button{
+a.button{
     background-color: aqua;
     color: white;
     padding-left: 8px;
@@ -220,19 +238,21 @@ div.item {
     padding-top: 5px;
     padding-bottom: 1px;
     border-radius: 20px;
-} */
+} 
 
 
 
 div.number {
-    font-size: 90px;
+    font-size: 50px;
 }
 
 div.featureimage {
-    width: 33.333%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,5,247,1) 100%); ;
 }
 
 
