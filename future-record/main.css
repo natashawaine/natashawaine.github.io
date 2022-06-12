@@ -35,6 +35,7 @@ a {
 
 img {
     width: 100%;
+    padding-top: 25px;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -256,7 +257,7 @@ div.recordinganimation {
     align-items: center;
     padding-left: 4px;
     margin-left: 10px;
-    margin-bottom: 320px;
+    margin-bottom: 240px;
    
 }
 
@@ -291,7 +292,6 @@ div.textrecord {
 
 div.record {
     width: 33.333%;
-    padding-top: 30px;
     padding-bottom: 30px; 
     
 
@@ -310,7 +310,9 @@ div.container {
 
 div.item {
 
-    width: 25%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
     align-items: center;
     text-transform:uppercase;
     border-radius: 50%;
