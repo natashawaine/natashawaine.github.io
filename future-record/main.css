@@ -252,13 +252,14 @@ div.cards {
 div.camrecord {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     background-color: black;
     text-transform:uppercase;
     align-items: center;
     color: white;
     margin-top: 400px;
     margin-bottom: 400px;
-
+    padding-top: 10px;
 
 }
 
@@ -269,9 +270,9 @@ div.recordinganimation {
     border-radius: 0.26em;
     background-color: rgb(48, 48, 48);
     align-items: center;
-    padding-left: 4px;
-    margin-left: 10px;
-    margin-bottom: 240px;
+    padding-left: 5px;
+
+
    
 }
 
@@ -281,6 +282,7 @@ div.circlerecord {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+
     animation: ease pulse 2s infinite;
 }
 
@@ -305,8 +307,9 @@ div.textrecord {
 }
 
 div.record {
-    width: 33.333%;
+
     padding-bottom: 30px;
+    width: 100%;
 }
 
 
@@ -351,6 +354,10 @@ div.w1-12 {
     width: 8.333%
 }
 
+div.w11-12 {
+    width: 91.666%;
+}
+
 
 
 div.w1-6 {
@@ -359,6 +366,10 @@ div.w1-6 {
 }
 div.w1-3 {
     width: 33.333%;
+}
+
+div.w1-4 {
+    width: 25%;
 }
 
 div.w1-2{
