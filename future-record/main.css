@@ -304,8 +304,8 @@ div.container {
 }
 
 div.item {
-    margin-left: 6px;
-    margin-right: 6px;
+    /* margin-left: 6px;
+    margin-right: 6px; */
     width: 33.333%;
     align-items: center;
     text-transform:uppercase;
@@ -321,7 +321,6 @@ div.item:hover {
 
 /* div.cardtext {
     padding-left: 70px
-
 } */
 
 div.itemsmall {
