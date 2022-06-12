@@ -239,6 +239,7 @@ div.cards {
 }
 
 
+
 div.camrecord {
     display: flex;
     flex-wrap: wrap;
@@ -296,10 +297,9 @@ div.textrecord {
 
 div.record {
     width: 33.333%;
-    padding-bottom: 30px; 
-    
-
+    padding-bottom: 30px;
 }
+
 
 div.container {
     display: flex;
@@ -334,10 +334,18 @@ div.cardtext {
 }
 
 
+/* widths */
+div.w1-2{
+    width: 50%
+}
 
 
+div.w1-12 {
+    width: 8.333%
+}
 
-div.space {
+
+div.w1-6 {
     width: 16.666%;
 }
 
@@ -384,15 +392,43 @@ a.button{
     padding-left: 70px;
 } */
 
-/* div.featureimage {
+div.mainfeatureimg {
     width: 100%;
+    padding-top: 100px;
+}
+div.featureimage {
+    width: 800px;
+    height: 800px;
+    padding-top: 50px;
+
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-radius: 50%;
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,5,247,1) 100%); ;
-} */
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,5,247,1) 100%);
 
+}
+
+div.infobox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+div.infotext{
+    width:50%;
+
+}
+
+div.stackedimage{
+    width: 50%;
+}
 
 div.footer {
     display: flex;
