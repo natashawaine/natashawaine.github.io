@@ -244,6 +244,7 @@ div.camrecord {
     margin-top: 400px;
     margin-bottom: 400px;
 
+
 }
 
 div.recordinganimation {
@@ -302,13 +303,16 @@ div.container {
     align-items: center;
     margin-top: 400px;
     margin-bottom: 400px;
+    margin-left:50px;
+
+
 
 
 }
 
 div.item {
 
-    width: 33.333%;
+    width: 25%;
     align-items: center;
     text-transform:uppercase;
     border-radius: 50%;
