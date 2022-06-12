@@ -305,10 +305,8 @@ div.container {
     margin-bottom: 400px;
     margin-left:50px;
 
-
-
-
 }
+
 
 div.item {
 
@@ -346,6 +344,9 @@ div.space {
     width: 16.666%;
 }
 
+div.break {
+    width: 25%;
+}
 
 div.gradientbase {
     height: 300px;
