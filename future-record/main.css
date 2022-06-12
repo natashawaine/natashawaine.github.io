@@ -33,12 +33,16 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 a:hover {
     color: rgb(93, 93, 255);
 }
 
 
-div.header {
+/* div.header {
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px solid black;
@@ -49,9 +53,9 @@ div.header {
     background-color: rgba(71,253,61,1);
     box-shadow: 3px 3px 3px 1px rgb(57, 181, 0);
 
-}
+} */
 
-div.header a {
+/* div.header a {
     color: green
 }
 
@@ -63,27 +67,30 @@ div.header a:hover {
 div.logo {
     padding: 10px;
     width: 50%;
-}
+} */
 
 
 div.sidenav {
-
-    padding-top: 60px;
+    width: 16.666%;
+    padding-top: 30px;
     height: 100%;
-    position: fixed;
     right: 30px;
+    position: fixed;
+    text-transform: uppercase;
    
 
 }
 
 div.navelement {
-    width: 16.666%;
-    text-align: right;
-    color: rgb(43, 46, 226);
-    font-family: Acumin Pro;
+
+    font-family: Acumin Pro; 
     font-style: bold;
-    text-transform: capitalize;
-    text-align: justify;
+    text-align: right;
+    font-size: 15px;
+    color: rgb(43, 46, 226);
+    padding-top: 5px;
+
+
 
 }
 
@@ -100,8 +107,8 @@ div.doteffect {
 }
 
 div.dot {
-  width: 10px;
-  height: 10px;
+  width: 18px;
+  height: 18px;
   background-color: magenta;
   border-radius: 100%;
   position: fixed;
@@ -110,7 +117,7 @@ div.dot {
 }
 
 div.dot:hover {
-  transform: scale(150%);
+  transform: scale(140%);
   transition: 0.5s;
   background-color: lime-green;
 }
@@ -173,6 +180,7 @@ div.masthead {
 div.aboutsection {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 30px;
     border-bottom: 1px solid black;
 
 }
@@ -180,16 +188,19 @@ div.aboutsection {
 div.subheading {
     width: 33.333%;
     font-size: 75px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
     color: black;
     font-weight: bold;
     text-align: left;
     padding-left: 30px;
-    margin-bottom: 100px;
+
 }
 
 
 div.about {
     padding: 10px;
+    padding-left: 30px;
     padding-right: 30px;
     width: 66.666%;
     font-family: Acumin Pro;
@@ -225,13 +236,58 @@ div.camrecord {
     background-color: black;
     text-transform:uppercase;
     align-items: center;
+    color: white;
 
+}
+
+div.recordinganimation {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 8.333%;
+    border-radius: 0.26em;
+    background-color: rgb(48, 48, 48);
+    align-items: center;
+    padding-left: 4px;
+    margin-left: 10px;
+    margin-bottom: 320px;
+   
+}
+
+div.circlerecord {
+
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: ease pulse 2s infinite;
+}
+
+div.textrecord {
+    font-family: Acumin Pro;
+    font-size: 20px;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: rgb(255, 75, 75);
+    }
+    100% {
+        background-color: red;
+    }
+   
 }
 
 div.record {
     width: 33.333%;
     padding-left: 30px;
+    padding-top: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
     
 
 }
@@ -239,13 +295,20 @@ div.record {
 div.container {
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+
 }
 
 div.item {
-    width: 33.333%;
-    padding: 30px;
-    padding-top: 30px;
+    width: 400px;
+    height: 400px;
+    margin-left: 6px;
+    margin-right: 6px;
+    align-items: center;
     text-transform:uppercase;
     border-radius: 50%;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,5,247,1) 100%);
@@ -254,6 +317,11 @@ div.item {
 div.item:hover {
     background-color: blue;
     border-style: dotted black 1px;
+
+}
+
+div.cardtext {
+    padding-left: 70px
 
 }
 
@@ -295,6 +363,7 @@ a.button{
 
 div.number {
     font-size: 50px;
+    padding-left: 70px;
 }
 
 div.featureimage {
