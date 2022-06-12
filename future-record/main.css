@@ -336,9 +336,7 @@ div.cardtext {
 
 
 /* widths */
-div.w1-2{
-    width: 50%
-}
+
 
 
 div.w1-12 {
@@ -350,6 +348,9 @@ div.w1-6 {
     width: 16.666%;
 }
 
+div.w1-2{
+    width: 50%
+}
 div.spacelarge {
     width:50%;
     padding-top: 80px;
@@ -408,6 +409,14 @@ div.featureimage {
     border-radius: 50%;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,5,247,1) 100%);
 
+}
+
+div.content {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 div.infobox {
