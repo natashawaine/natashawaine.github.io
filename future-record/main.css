@@ -304,10 +304,8 @@ div.container {
 }
 
 div.item {
-    /* width: 400px;
-    height: 400px; */
-    /* margin-left: 6px;
-    margin-right: 6px; */
+    margin-left: 6px;
+    margin-right: 6px;
     width: 33.333%;
     align-items: center;
     text-transform:uppercase;
