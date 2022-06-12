@@ -203,13 +203,14 @@ div.subheading {
 
 div.about {
     padding: 10px;
+    padding-top: 400px;
     padding-left: 30px;
     padding-right: 30px;
     width: 66.666%;
     font-family: Acumin Pro;
     font-style: italic;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
 }
 
 
