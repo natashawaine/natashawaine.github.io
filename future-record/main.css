@@ -103,7 +103,7 @@ div.navelement {
 }
 
 div.navelement:hover {
-    color: aliceblue;
+    color: rgb(235, 167, 31);
     font-family: Acumin Pro;
     font-style: bold italic;
 }
@@ -185,15 +185,36 @@ div.masthead {
 }
 
 
-div.aboutsection {
+div.centercontent {
+    padding-top: 400px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.aboutsection {
+    width: 66.666%;
+    padding-top: 30px;
     padding-bottom: 30px;
+    border-top: 1px solid black;;
     border-bottom: 1px solid black;
     align-content: center;
 
-}
 
+}
+div.about {
+    padding: 10px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-family: Acumin Pro;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
 div.subheading {
     width: 33.333%;
     font-size: 75px;
@@ -207,17 +228,7 @@ div.subheading {
 }
 
 
-div.about {
-    padding: 10px;
-    padding-top: 400px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 66.666%;
-    font-family: Acumin Pro;
-    font-style: italic;
-    font-size: 25px;
-    text-align: left;
-}
+
 
 
 div.footnotes {
@@ -344,8 +355,13 @@ div.w1-12 {
 }
 
 
+
 div.w1-6 {
     width: 16.666%;
+
+}
+div.w1-3 {
+    width: 33.333%;
 }
 
 div.w1-2{
@@ -428,8 +444,7 @@ div.infobox {
     padding-right: 200px;
     padding-top: 200px;
     padding-bottom: 200px;
-    
-}
+    }
 
 div.infotext{
     width:50%;
