@@ -47,6 +47,7 @@ img {
 
 video {
     width: 100%;
+
 }
 
 div.item:hover.overlay {
@@ -319,6 +320,10 @@ div.recordloop {
     width: 80%;
 }
 
+div.recordloop:hover {
+    opacity: 50%;
+
+}
 
 div.basetext {
     width: 33.333%;
@@ -359,51 +364,62 @@ div.item:hover {
 }
 
 div.item1{
-    top: 10;
-    left: 80;
+    position: relative;
+    top: 10px;
+    left: 80px;
 }
 
 div.item2 {
-    bottom: 70;
-    right: 90
+    position: relative;
+    bottom: 400px;
+    right: 10px
 
 
 }
 
 div.item3{
-    top:90;
-    right: 55;
+    position: relative;
+    top:90px;
+    right: 55px;
 }
 
 div.item4 {
-
+    position: relative;
+    top: 5px;
+    right: 45px;
 }
 
 
 div.item5{
-
+    position: relative;
+    bottom: 80px;
+    right: 90px;
 
 } 
 
 div.item6 {
-
-
+    position: relative;
+    top: 5px;
+    right: 45px;
 }
 
 
 div.item7 {
-
-
+    position: relative;
+    top: 10px;
+    left: 80px;
 }
 
 div.item8 {
-
-
+    position: relative;
+    top: 5px;
+    right: 45px;
 }
 
 div.item9{ 
-
-
+    position: relative;
+    bottom: 400px;
+    right: 10px
 }
 
 div.cardtext {
@@ -490,7 +506,16 @@ a.button{
 div.mainfeatureimg {
     width: 100%;
     padding-top: 100px;
+
 }
+
+div.mainfeatureimg2.video {
+    width: 100%;
+    padding-top: 100px;
+    border-radius: 50%;
+}
+
+
 div.featureimage {
     width: 800px;
     height: 800px;
@@ -538,8 +563,9 @@ div.footer {
 
 div.foot {
     border-top: 1px solid black;
-    width: 33.333%;
+    width: 25%;
     padding: 30px;
     text-decoration: underline;
+    font-size: 15px;
 }
 
