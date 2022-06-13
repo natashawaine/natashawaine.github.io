@@ -29,8 +29,8 @@ body {
 }
 
 a {
-    color: orangered;
-    text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 a:hover {
@@ -66,19 +66,6 @@ div.item:hover.overlay {
 
 } */
 
-/* div.header a {
-    color: green
-}
-
-div.header a:hover {
-    color: grey;
-}
-
-
-div.logo {
-    padding: 10px;
-    width: 50%;
-} */
 
 
 div.sidenav {
@@ -140,7 +127,7 @@ div.dot1 {
 div.dot2 {
   bottom: 100px;
   left: 50px;
-  background-color: rgba(71,253,61,1);
+
 }
 
 div.dot3 {
@@ -193,7 +180,7 @@ div.landingscreen {
     align-items: center;
 }
 
-div.landingimage {
+div.landingvid {
     width: 100%;
 
 } 
@@ -365,8 +352,9 @@ div.item {
 }
 
 div.item:hover {
-    background-color: blue;
-    border-style: dotted black 1px;
+    background: rgba(250,5,247,1) 100%;
+    text-decoration: underline;
+    transition: 0.2s;
 
 }
 
@@ -436,16 +424,15 @@ div.w11-12 {
     width: 91.666%;
 }
 
-
+div.w1-10 {
+    width: 10%;
+}
 
 div.w1-6 {
     width: 16.666%;
 
 }
 
-div.w1-10 {
-    width: 10%;
-}
 div.w1-3 {
     width: 33.333%;
 }
@@ -457,7 +444,7 @@ div.w1-4 {
 div.w1-2{
     width: 50%
 }
-div.spacelarge {
+/* div.spacelarge {
     width:50%;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -476,7 +463,7 @@ div.fullbreak{
     width: 100%;
     padding-top: 80px;
     padding-bottom: 80px;
-}
+} */
 div.gradientbase {
     height: 300px;
     background: linear-gradient(0deg, rgba(249,248,21,1) 0%, rgba(255,255,255,1) 100%);
@@ -508,7 +495,6 @@ div.featureimage {
     width: 800px;
     height: 800px;
     padding-top: 50px;
-
     margin-left: auto;
     margin-right: auto;
     text-align: center;
