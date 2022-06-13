@@ -319,12 +319,20 @@ div.textrecord {
    
 }
 
-div.record {
+div.recordloop {
 
     padding-bottom: 30px;
-    width: 100%;
+    width: 80%;
 }
 
+
+div.basetext {
+    width: 33.333%;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
 
 div.container {
     display: flex;
@@ -356,6 +364,7 @@ div.item:hover {
 
 div.cardtext {
    padding-top: 10px;
+   font-weight: bold;
 }
 
 
@@ -376,6 +385,10 @@ div.w11-12 {
 div.w1-6 {
     width: 16.666%;
 
+}
+
+div.w1-10 {
+    width: 10%;
 }
 div.w1-3 {
     width: 33.333%;
