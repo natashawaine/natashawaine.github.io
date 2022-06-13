@@ -274,10 +274,16 @@ div.camrecord {
     color: white;
     margin-top: 400px;
     margin-bottom: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding-top: 10px;
 
 }
 
+div.animationrecord {
+    padding-bottom: 10px;
+    background-color: none
+}
 
 div.recordinganimation {
     display: flex;
@@ -341,6 +347,7 @@ div.container {
     margin-top: 400px;
     margin-bottom: 400px;
     margin-left:50px;
+    height: 400px;
 
 }
 
@@ -359,6 +366,54 @@ div.item {
 div.item:hover {
     background-color: blue;
     border-style: dotted black 1px;
+
+}
+
+div.item1{
+    top: 10;
+    left: 80;
+}
+
+div.item2 {
+    bottom: 70;
+    right: 90
+
+
+}
+
+div.item3{
+    top:90;
+    right: 55;
+}
+
+div.item4 {
+
+}
+
+
+div.item5{
+
+
+} 
+
+div.item6 {
+
+
+}
+
+
+div.item7 {
+
+
+}
+
+div.item8 {
+
+
+}
+
+div.item9{ 
+
 
 }
 
