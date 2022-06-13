@@ -190,7 +190,6 @@ div.dot8 {
 div.landingscreen {
     display: flex;
     flex-wrap: wrap;
-
     align-items: center;
 }
 
@@ -279,6 +278,7 @@ div.camrecord {
 
 }
 
+
 div.recordinganimation {
     display: flex;
     flex-wrap: nowrap;
@@ -287,9 +287,7 @@ div.recordinganimation {
     background-color: rgb(48, 48, 48);
     align-items: center;
     padding-left: 5px;
-
-
-   
+ 
 }
 
 div.circlerecord {
@@ -298,7 +296,6 @@ div.circlerecord {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-
     animation: ease pulse 2s infinite;
 }
 
