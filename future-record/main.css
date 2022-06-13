@@ -385,35 +385,37 @@ div.item3{
 
 div.item4 {
     position: relative;
-    top: 5px;
-    right: 45px;
+    bottom: 122px;
+    left: 80px;   
 }
 
 
 div.item5{
     position: relative;
-    bottom: 80px;
-    right: 90px;
+
+    top: 285px;
+    left: 80px;
 
 } 
 
 div.item6 {
     position: relative;
-    top: 5px;
-    right: 45px;
+
+    bottom: 400px;
+    left: 30px;
 }
 
 
 div.item7 {
     position: relative;
-    top: 10px;
-    left: 80px;
+    bottom: 70px;
+    left: 90px;
 }
 
 div.item8 {
     position: relative;
-    top: 5px;
-    right: 45px;
+    top: 290px;
+    left: 60px;
 }
 
 div.item9{ 
