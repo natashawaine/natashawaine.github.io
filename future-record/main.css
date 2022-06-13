@@ -45,6 +45,9 @@ img {
 
 }
 
+.video {
+    width: 100%;
+}
 
 div.item:hover.overlay {
     opacity: 100%;
@@ -171,7 +174,7 @@ div.dot8 {
     bottom: 30px;
 }
 
-div.masthead {
+/* div.masthead {
     font-family: Acumin Pro;
     font-style: bold;
     font-size: 40vw;
@@ -181,11 +184,25 @@ div.masthead {
     padding-bottom: 50px;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,167,31,0.5) 49%, rgba(71,253,61,1) 100%);
+} */
+
+
+div.landingscreen {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
 }
+
+div.landingimage {
+    width: 100%;
+
+} 
 
 
 div.centercontentabout {
     padding-top: 400px;
+    padding-bottom: 200px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
@@ -252,7 +269,7 @@ div.camrecord {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: black;
+    background-color: white;
     text-transform:uppercase;
     align-items: center;
     color: white;
